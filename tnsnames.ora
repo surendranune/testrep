@@ -1,0 +1,10 @@
+EBSPRD01 =
+ (DESCRIPTION =
+   (ADDRESS_LIST =
+      (LOAD_BALANCE = yes)
+     (ADDRESS = (PROTOCOL = TCP)(HOST = fc8oram03.gfoundries.com)(PORT = 1521))
+   )
+   (CONNECT_DATA =
+     (SERVICE_NAME = destage)
+   )
+ )
